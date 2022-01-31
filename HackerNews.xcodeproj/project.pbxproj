@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188FBF9027A877680009C681 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 188FBF8F27A877680009C681 /* README.md */; };
 		8D303BFD23609F0E007CC7C0 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D303BFC23609F0E007CC7C0 /* Story.swift */; };
 		8D303C012360A1CD007CC7C0 /* StoryDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D303C002360A1CD007CC7C0 /* StoryDetailViewModel.swift */; };
 		8D303C032360A618007CC7C0 /* StoryDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D303C022360A618007CC7C0 /* StoryDetailView.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		188FBF8F27A877680009C681 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8D303BFC23609F0E007CC7C0 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		8D303C002360A1CD007CC7C0 /* StoryDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailViewModel.swift; sourceTree = "<group>"; };
 		8D303C022360A618007CC7C0 /* StoryDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryDetailView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		188FBF8E27A876B20009C681 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				8DE030842360922400B93475 /* AppDelegate.swift */,
+				8DE030862360922400B93475 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		8D303BFB23609F01007CC7C0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -70,6 +81,7 @@
 		8DE030782360922400B93475 = {
 			isa = PBXGroup;
 			children = (
+				188FBF8F27A877680009C681 /* README.md */,
 				8DE030832360922400B93475 /* HackerNews */,
 				8DE030822360922400B93475 /* Products */,
 			);
@@ -86,13 +98,12 @@
 		8DE030832360922400B93475 /* HackerNews */ = {
 			isa = PBXGroup;
 			children = (
+				188FBF8E27A876B20009C681 /* Delegates */,
 				8DC3CE4B2360E6030036D19E /* Extensions */,
 				8D303BFB23609F01007CC7C0 /* Models */,
 				8DE4264023609C5B00078019 /* Views */,
 				8DE4263D2360974A00078019 /* View Models */,
 				8DE4263A236095D200078019 /* Services */,
-				8DE030842360922400B93475 /* AppDelegate.swift */,
-				8DE030862360922400B93475 /* SceneDelegate.swift */,
 				8DE0308A2360922600B93475 /* Assets.xcassets */,
 				8DE0308F2360922600B93475 /* LaunchScreen.storyboard */,
 				8DE030922360922600B93475 /* Info.plist */,
@@ -196,6 +207,7 @@
 			files = (
 				8DE030912360922600B93475 /* LaunchScreen.storyboard in Resources */,
 				8DE0308E2360922600B93475 /* Preview Assets.xcassets in Resources */,
+				188FBF9027A877680009C681 /* README.md in Resources */,
 				8DE0308B2360922600B93475 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
